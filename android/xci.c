@@ -1,3 +1,7 @@
+/*
+Arquivo modificado por DevPaulo 
+Arquivo de licença incluso 
+*/
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
@@ -7,9 +11,10 @@
 int main ()
 {
   //Initialize variables used throughout dump
-  system("mkdir storage/emulated/0/gamesxci");
+  system("mkdir gamesxci");
   system("cd gamesxci && ls && clear");
   printf("NINTENDO SWITCH XCI DECOMPILER \n");
+  system("ls");
   system("echo select directory game");
   system("printf 'dir@>>>> '");
   system("read newdirectory && cd $newdirectory");
