@@ -10,6 +10,8 @@ Pode ser compilado no linux com clang gcc ou  distcc
 https://github.com/EliseZeroTwo/xci-tool-linux
 foi altamente modificado para rodar em aparelhos moveis 
 
+cabeçalho modificado a base do carregador de xci do skyline (xci.h)
+
 # funcionando 
 mova o arquivo de jogo para o diretório "Android/data/xci.decompiler.devian/files/gamesxci"
 crie diretorios separados para cada arquivo de jogo e renomeie cada arquivo xci "game.xci" para ser encontrado pelo ponteiro FILE *
