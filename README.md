@@ -1,4 +1,4 @@
-# xci decompiler
+# xci decompiler for android
 Versão android do xci decompiler 
 
 Compilador usado TCC por ser mais leve 
